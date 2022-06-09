@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    background-color: coral;
+    color: aliceblue;
+    padding: 12px 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.brand {
+    display: inline-block;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    border-radius: 2px;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: tomato;
+    color: black;
+}
+
+.jumbo {
+    padding: 150px 0;
+    text-align: center;
+    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-31-badgewatercolor_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=969d007dc84a90f2df4679a93124b512');
+    background-size: cover;
+}
+
+.jumbo h1,
+.jumbo p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+.btn-fill {
+    border: 1px solid tomato;
+    background-color: coral;
+    color: white;
+}
+
+.jumbo .btn-outline {
+    border: 1px solid tomato;
+    background: none;
+    color: coral;
+}
+
+
+.products {
+    padding: 20px 0 40px 0;
+}
+
+.products h1 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.products .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.contact {
+    background-color: antiquewhite;
+    padding: 20px 0 40px 0;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-a,
+.side-b {
+    width: calc(100% / 2 - 20px);
+}
+
+.contact label,
+.contact input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 380px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+.contact textarea {
+    width: calc(100% - 20px);
+    height: 150px;
+    resize: none;
+}
+
+
+.footer {
+    background-color: darkslateblue;
+    color: white;
+    padding: 20px 0;
+}
